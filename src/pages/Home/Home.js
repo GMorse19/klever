@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container, Col, Row } from 'react-bootstrap'
 
-import './Home.css'
+import './Home.scss'
 
 const Home = () => (
   <Container fluid className='home-page'>

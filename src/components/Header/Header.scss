@@ -1,0 +1,19 @@
+.header {
+  width: 100vw;
+  height: 60px;
+  background-color: #000;
+  color: #FFF;
+  position: fixed;
+  z-index: 1000;
+  :focus {
+    outline: none;
+  }
+}
+
+.header-row {
+  padding-top: 20px;
+}
+
+.invert{
+    -webkit-filter: invert(100%);
+}
