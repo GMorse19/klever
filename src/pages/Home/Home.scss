@@ -1,0 +1,17 @@
+.home-page {
+  background-image: url('../../helpers/images/box-gloves.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.home-page-title {
+  float: left;
+  color: #680000 ;
+  padding-top: 10vh;
+  padding-left: 5vw;
+  font-size: 50px;
+  font-family: 'Holtwood One SC';
+  text-shadow: 15px 15px 20px #000;
+}
