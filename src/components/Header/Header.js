@@ -38,7 +38,7 @@ class Header extends React.Component {
           <img width='50vw' src={icon.logo.logo} alt='boxing gloves' />
         </Col>
           <Col className='menu-col-right'>
-            <Col lg={12}><a href='/'>Home</a></Col>
+            <Col lg={12}><a href='#/'>Home</a></Col>
             <Col lg={12}><a href='/'>About</a></Col>
             <Col lg={12}><a href='/'>Contact</a></Col>
           </Col>
