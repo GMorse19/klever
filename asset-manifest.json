@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/klever/static/css/main.c699d102.chunk.css",
-    "main.js": "/klever/static/js/main.ebf39159.chunk.js",
-    "main.js.map": "/klever/static/js/main.ebf39159.chunk.js.map",
-    "runtime-main.js": "/klever/static/js/runtime-main.99fe3aca.js",
-    "runtime-main.js.map": "/klever/static/js/runtime-main.99fe3aca.js.map",
-    "static/js/2.2224af1e.chunk.js": "/klever/static/js/2.2224af1e.chunk.js",
-    "static/js/2.2224af1e.chunk.js.map": "/klever/static/js/2.2224af1e.chunk.js.map",
-    "static/js/3.537df4a9.chunk.js": "/klever/static/js/3.537df4a9.chunk.js",
-    "static/js/3.537df4a9.chunk.js.map": "/klever/static/js/3.537df4a9.chunk.js.map",
+    "main.css": "/klever/static/css/main.7bd4ac4b.chunk.css",
+    "main.js": "/klever/static/js/main.77fe8c89.chunk.js",
+    "main.js.map": "/klever/static/js/main.77fe8c89.chunk.js.map",
+    "runtime-main.js": "/klever/static/js/runtime-main.7b515d9b.js",
+    "runtime-main.js.map": "/klever/static/js/runtime-main.7b515d9b.js.map",
+    "static/css/2.8cebfa1f.chunk.css": "/klever/static/css/2.8cebfa1f.chunk.css",
+    "static/js/2.98353788.chunk.js": "/klever/static/js/2.98353788.chunk.js",
+    "static/js/2.98353788.chunk.js.map": "/klever/static/js/2.98353788.chunk.js.map",
+    "static/js/3.d7285db6.chunk.js": "/klever/static/js/3.d7285db6.chunk.js",
+    "static/js/3.d7285db6.chunk.js.map": "/klever/static/js/3.d7285db6.chunk.js.map",
     "index.html": "/klever/index.html",
-    "static/css/main.c699d102.chunk.css.map": "/klever/static/css/main.c699d102.chunk.css.map",
-    "static/js/2.2224af1e.chunk.js.LICENSE.txt": "/klever/static/js/2.2224af1e.chunk.js.LICENSE.txt",
+    "static/css/2.8cebfa1f.chunk.css.map": "/klever/static/css/2.8cebfa1f.chunk.css.map",
+    "static/css/main.7bd4ac4b.chunk.css.map": "/klever/static/css/main.7bd4ac4b.chunk.css.map",
+    "static/js/2.98353788.chunk.js.LICENSE.txt": "/klever/static/js/2.98353788.chunk.js.LICENSE.txt",
+    "static/media/Start.scss": "/klever/static/media/bg-start.9b21c18e.jpg",
     "static/media/Home.scss": "/klever/static/media/box-gloves.9701164e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.99fe3aca.js",
-    "static/js/2.2224af1e.chunk.js",
-    "static/css/main.c699d102.chunk.css",
-    "static/js/main.ebf39159.chunk.js"
+    "static/js/runtime-main.7b515d9b.js",
+    "static/css/2.8cebfa1f.chunk.css",
+    "static/js/2.98353788.chunk.js",
+    "static/css/main.7bd4ac4b.chunk.css",
+    "static/js/main.77fe8c89.chunk.js"
   ]
 }
