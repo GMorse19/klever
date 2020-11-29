@@ -53,7 +53,7 @@ class Header extends React.Component {
     </Menu>
     <Container fluid>
       <Row className='header-row'>
-        <Col xs={{ span: 2, offset: 1 }}><a href='/'>Home</a></Col>
+        <Col xs={{ span: 2, offset: 1 }}><a href='#/'>Home</a></Col>
         <Col xs={2}><a href='#start'>Start Here</a></Col>
         <Col xs={2}><a href='#classes'>Classes</a></Col>
         <Col xs={2}><a href='#about'>About</a></Col>
