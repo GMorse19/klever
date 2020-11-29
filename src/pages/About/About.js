@@ -21,10 +21,10 @@ const About = () => (
                 <Col>
                 <h3>Where We Came From</h3>
                     <p>
-                    In 2001, Paul Wade celebrated a Golden Gloves title win.
+                    In 1984, Klever Lang celebrated a Golden Gloves title win.
                     Following that, he began to focus on training and developing
                     fighters, producing numerous Golden Gloves champions. But
-                    boxing in San Francisco had seen better days, and there was
+                    boxing in Jamaica Plain had seen better days, and there was
                     a pressing need for an authentic gym. 
                     </p>
                 </Col>
@@ -33,7 +33,7 @@ const About = () => (
             <Row className='justify-content-center'>
             <Col lg={4}>
                     <p>
-                    A space on Third Street opened up, and with its concrete
+                    A space on South Street opened up, and with its concrete
                     walls, iron piping, and low ceilings, it had the look and
                     feel he wanted: a hard space for hard workouts. Sold.
                     </p>
@@ -41,10 +41,10 @@ const About = () => (
             <Col lg={8}><img src={stock.boxing.boxer} alt='boxer' /></Col>
             <Col>
                     <p>
-                    Third Street Boxing Gym opened its doors in September of 2003. 
+                    Klever Boxing Gym opened its doors in September of 2010. 
                     </p>
                     <p>
-                    Today, 3rd Street is home to aspiring amateurs and local pros
+                    Today, Klever is home to aspiring amateurs and local pros
                     alike. With a friendly atmosphere and classes designed to teach
                     boxing to the masses, we've become home to a growing number of
                     people who recognize the unparalleled benefit of the boxer's
@@ -68,7 +68,7 @@ const About = () => (
                 <div>
                     <p>"I pity the fool, and I will destroy any man who tries
                     to take what I got!"</p>
-                    <p>-- Clubber Lang</p>
+                    <p>-- Klever Lang</p>
                 </div>
             </Col>
             </Row>
