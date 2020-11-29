@@ -46,8 +46,7 @@ class Header extends React.Component {
             <Col lg={12}><a onClick={() => this.closeMenu()} href='#start'>Start Here</a></Col>
             <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>About</a></Col>
             <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Classes</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Boot Camp</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Contact</a></Col>
+            <Col lg={12}><a onClick={() => this.closeMenu()} href='#contact'>Contact</a></Col>
           </Col>
         </Row>
       </Container>

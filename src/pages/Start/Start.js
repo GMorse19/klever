@@ -3,6 +3,7 @@ import { Button, Container, Col, Row } from 'react-bootstrap'
 import Calendar from 'react-calendar'
 
 import { icon } from '../../helpers/images/icons/iconArray'
+import Footer from '../../components/Footer/Footer'
 
 import './Start.scss'
 import 'react-calendar/dist/Calendar.css'
@@ -120,6 +121,7 @@ const Start = () => (
             </p>
         </div>
         </Row>
+        <Row><Footer /></Row>
         </Container>
 )
 

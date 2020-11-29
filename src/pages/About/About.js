@@ -1,10 +1,15 @@
 import React from 'react'
 
+import Footer from '../../components/Footer/Footer'
+
 import './About.scss'
 
 const About = () => (
-    <div className='about'>
-        <h1>About</h1>
+    <div>
+        <div className='about'>
+            <h1>About</h1>
+        </div>
+        <Footer />
     </div>
 )
 
