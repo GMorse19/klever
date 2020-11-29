@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Start from './pages/Start/Start'
 import Classes from './pages/Classes/Classes'
 import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             )} />
             <Route exact path='/about'  render={() => (
               <About />
+            )} />
+            <Route exact path='/contact'  render={() => (
+              <Contact />
             )} />
           </div>
     </div>

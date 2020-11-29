@@ -1,3 +1,17 @@
 .about {
-    padding-top: 50vh;
+    height: 100vh;
+}
+
+.about-bg {
+    background-image: url('../../helpers/images/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.about-title {
+    color: #3349FF;
+    font-size: 20vw;
+    height: 100vh;
+    padding-top: 30vh;
 }
