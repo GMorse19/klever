@@ -39,14 +39,14 @@ class Header extends React.Component {
       <Container fluid>
       <Row>
         <Col className='menu-col-left'>
-          <img width='50vw' src={icon.logo.logo} alt='boxing gloves' />
+          <img width={100} src={icon.logo.logo} alt='boxing gloves' />
         </Col>
           <Col className='menu-col-right'>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Home</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#start'>Start Here</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#about'>About</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#classes'>Classes</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#contact'>Contact</a></Col>
+            <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#/'>Home</a></Col>
+            <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#start'>Start Here</a></Col>
+            <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#about'>About</a></Col>
+            <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#classes'>Classes</a></Col>
+            <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#contact'>Contact</a></Col>
           </Col>
         </Row>
       </Container>

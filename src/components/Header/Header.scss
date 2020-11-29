@@ -94,8 +94,30 @@ Note: Beware of modifying this element as it can break the animations - you shou
     -webkit-filter: invert(100%);
 }
 
+.link-col {
+  padding: 5px;
+}
+
+.menu-col-left {
+  padding-top: 20vh;
+}
+
+.menu-col-right {
+  text-align: left;
+  padding-top: 15vh;
+  font-size: 40px;
+}
+
+.menu-col-right a {
+  color: #b8b7ad;
+}
+
 @media screen and (max-width: 1000px) {
   .header-row {
     display: none;
+  }
+
+  .menu-col-right {
+    font-size: 20px;
   }
 }
