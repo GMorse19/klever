@@ -44,10 +44,9 @@ class Header extends React.Component {
           <Col className='menu-col-right'>
             <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Home</a></Col>
             <Col lg={12}><a onClick={() => this.closeMenu()} href='#start'>Start Here</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>About</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Classes</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Boot Camp</a></Col>
-            <Col lg={12}><a onClick={() => this.closeMenu()} href='#/'>Contact</a></Col>
+            <Col lg={12}><a onClick={() => this.closeMenu()} href='#about'>About</a></Col>
+            <Col lg={12}><a onClick={() => this.closeMenu()} href='#classes'>Classes</a></Col>
+            <Col lg={12}><a onClick={() => this.closeMenu()} href='#contact'>Contact</a></Col>
           </Col>
         </Row>
       </Container>
@@ -56,8 +55,8 @@ class Header extends React.Component {
       <Row className='header-row'>
         <Col xs={{ span: 2, offset: 1 }}><a href='/'>Home</a></Col>
         <Col xs={2}><a href='#start'>Start Here</a></Col>
-        <Col xs={2}><a href='/#'>Classes</a></Col>
-        <Col xs={2}><a href='/#'>About</a></Col>
+        <Col xs={2}><a href='#classes'>Classes</a></Col>
+        <Col xs={2}><a href='#about'>About</a></Col>
         <Col xs={2}><a href='#/'><img width={20} src={icon.media.facebook} alt='facebook'/></a>
         <a href='#/'><img width={20} src={icon.media.instagram} alt='instagram'/></a></Col>
       </Row>
