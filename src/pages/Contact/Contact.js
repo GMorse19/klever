@@ -22,8 +22,16 @@ const Contact = () => (
         </Col>
         <Col xs={6} lg={4}>
             <h5>Media</h5>
-            <p><img width={30} src={icon.media.instagram} alt='instagram' /></p>
-            <p><img width={30} src={icon.media.facebook} alt='facebook' /></p>
+            <p>
+                <a href='/#'>
+                    <img width={30} src={icon.media.instagram} alt='instagram' />
+                </a>
+            </p>
+            <p>
+                <a href='https://www.facebook.com/kleverboxinggym/'>
+                    <img width={30} src={icon.media.facebook} alt='facebook' />
+                </a>
+            </p>
         </Col>
     </Row>
 </Container>
