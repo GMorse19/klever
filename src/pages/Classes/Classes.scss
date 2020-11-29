@@ -1,11 +1,23 @@
 .classes {
-    height: 100vh;
 }
 
 .classes-bg {
     background-image: url('../../helpers/images/classes.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+}
+
+.classes-content {
+    font-size: 20px;
+    min-height: 100vh;
+    max-width: 100vw;
+    padding: 5% 22% 5% 22%;
+    text-align: center;
+}
+
+.classes-content ul {
+    text-align: left;
 }
 
 .classes-title {
@@ -13,4 +25,11 @@
     font-size: 20vw;
     height: 100vh;
     padding-top: 30vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .classes-content {
+        padding: 5% 2% 5% 2%;
+        font-size: 12px
+    }
 }
