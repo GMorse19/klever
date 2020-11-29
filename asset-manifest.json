@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/klever/static/css/main.8f7230dc.chunk.css",
-    "main.js": "/klever/static/js/main.c1dff710.chunk.js",
-    "main.js.map": "/klever/static/js/main.c1dff710.chunk.js.map",
+    "main.js": "/klever/static/js/main.25929047.chunk.js",
+    "main.js.map": "/klever/static/js/main.25929047.chunk.js.map",
     "runtime-main.js": "/klever/static/js/runtime-main.d3229132.js",
     "runtime-main.js.map": "/klever/static/js/runtime-main.d3229132.js.map",
     "static/css/2.8cebfa1f.chunk.css": "/klever/static/css/2.8cebfa1f.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.8cebfa1f.chunk.css",
     "static/js/2.8542f55b.chunk.js",
     "static/css/main.8f7230dc.chunk.css",
-    "static/js/main.c1dff710.chunk.js"
+    "static/js/main.25929047.chunk.js"
   ]
 }
