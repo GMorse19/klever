@@ -3,8 +3,9 @@ import { Route } from 'react-router-dom'
 
 import Home from './pages/Home/Home'
 import Header from './components/Header/Header'
-
 import Start from './pages/Start/Start'
+import Classes from './pages/Classes/Classes'
+import About from './pages/About/About'
 
 function App() {
   return (
@@ -16,6 +17,12 @@ function App() {
             )} />
             <Route exact path='/start'  render={() => (
               <Start />
+            )} />
+            <Route exact path='/classes'  render={() => (
+              <Classes />
+            )} />
+            <Route exact path='/about'  render={() => (
+              <About />
             )} />
           </div>
     </div>
