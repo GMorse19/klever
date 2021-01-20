@@ -5,13 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom'
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
 const appJsx = (
   <HashRouter>
     <App />
@@ -23,4 +16,3 @@ const appJsx = (
 reportWebVitals();
 
 ReactDOM.render(appJsx, document.getElementById('root'));
-
