@@ -55,6 +55,7 @@ class Header extends React.Component {
         <Col xs={2}><a href='#about'>About</a></Col>
         <Col xs={2}><a href='https://www.facebook.com/kleverboxinggym/'><img width={20} src={icon.media.facebook} alt='facebook'/></a>
         <a href='#/'><img width={20} src={icon.media.instagram} alt='instagram'/></a></Col>
+        <Col><img width={40} src={icon.button.home} alt='...' /></Col>
       </Row>
     </Container>
   </div>
