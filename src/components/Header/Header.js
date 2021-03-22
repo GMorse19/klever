@@ -51,11 +51,19 @@ class Header extends React.Component {
     </Menu>
     <Container fluid>
       <Row className='header-row'>
-        <Col xs={{ span: 2, offset: 1 }}><a href='#/'>Home</a></Col>
-        <Col xs={2}><a href='#about'>About</a></Col>
-        <Col xs={2}><a href='https://www.facebook.com/kleverboxinggym/'><img width={20} src={icon.media.facebook} alt='facebook'/></a>
-        <a href='#/'><img width={20} src={icon.media.instagram} alt='instagram'/></a></Col>
-        <Col><img width={40} src={icon.button.home} alt='...' /></Col>
+        <Col xs={{ span: 2, offset: 5 }} lg={{ span: 2, offset: 5 }}>
+          <a href='https://www.facebook.com/kleverboxinggym/'>
+            <img width={20} src={icon.media.facebook} alt='facebook'/>
+          </a>
+          <a href='#/'>
+            <img width={20} src={icon.media.instagram} alt='instagram'/>
+          </a>
+        </Col>
+        <Col xs={{ span: 2, offset: 3 }} lg={{ span: 2, offset: 3 }}>
+          <a href='#/'>
+            <img width={30} src={icon.button.home} alt='...' />
+          </a>
+        </Col>
       </Row>
     </Container>
   </div>
