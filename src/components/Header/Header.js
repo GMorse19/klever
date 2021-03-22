@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import { fallDown as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 
 import './Header.scss'
 
@@ -34,7 +34,7 @@ class Header extends React.Component {
       className='header-menu'
       isOpen={menuOpen}
       onStateChange={(state) => this.handleChange(state)}
-      width={ '100vw' }
+      width={ '50vw' }
     >
       <Container fluid>
       <Row>
@@ -55,7 +55,7 @@ class Header extends React.Component {
           <a href='https://www.facebook.com/kleverboxinggym/'>
             <img width={20} src={icon.media.facebook} alt='facebook'/>
           </a>
-          <a href='#/'>
+          <a href='https://www.instagram.com/kleverboxing'>
             <img width={20} src={icon.media.instagram} alt='instagram'/>
           </a>
         </Col>
