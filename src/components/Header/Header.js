@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import { fallDown as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 
 import './Header.scss'
 
@@ -34,7 +34,7 @@ class Header extends React.Component {
       className='header-menu'
       isOpen={menuOpen}
       onStateChange={(state) => this.handleChange(state)}
-      width={ '100vw' }
+      width={ '50vw' }
     >
       <Container fluid>
       <Row>
@@ -43,7 +43,6 @@ class Header extends React.Component {
         </Col>
           <Col className='menu-col-right'>
             <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#/'>Home</a></Col>
-            <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#about'>About</a></Col>
             <Col className='link-col' lg={12}><a onClick={() => this.closeMenu()} href='#contact'>Contact</a></Col>
           </Col>
         </Row>
@@ -51,10 +50,19 @@ class Header extends React.Component {
     </Menu>
     <Container fluid>
       <Row className='header-row'>
-        <Col xs={{ span: 2, offset: 1 }}><a href='#/'>Home</a></Col>
-        <Col xs={2}><a href='#about'>About</a></Col>
-        <Col xs={2}><a href='https://www.facebook.com/kleverboxinggym/'><img width={20} src={icon.media.facebook} alt='facebook'/></a>
-        <a href='#/'><img width={20} src={icon.media.instagram} alt='instagram'/></a></Col>
+        <Col xs={{ span: 2, offset: 5 }} lg={{ span: 2, offset: 5 }}>
+          <a href='https://www.facebook.com/kleverboxinggym/'>
+            <img width={20} src={icon.media.facebook} alt='facebook'/>
+          </a>
+          <a href='https://www.instagram.com/kleverboxing'>
+            <img width={20} src={icon.media.instagram} alt='instagram'/>
+          </a>
+        </Col>
+        <Col xs={{ span: 2, offset: 3 }} lg={{ span: 2, offset: 3 }}>
+          <a href='#/'>
+            <img width={30} src={icon.button.home} alt='...' />
+          </a>
+        </Col>
       </Row>
     </Container>
   </div>

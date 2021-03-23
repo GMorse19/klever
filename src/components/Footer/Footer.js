@@ -10,16 +10,21 @@ const Footer = () => (
         <Container>
             <Row>
                 <Col xs={12} lg={6}>
-                    <p>Email: <a href={'mailto: kleverboxing@gmail.com'}>kleverboxing@gmail.com</a></p>
-                </Col>
-                <Col xs={6} lg={6}>
-                  
-                        <a href='https://www.facebook.com/kleverboxinggym/'>
-                            <img width={30} src={icon.media.instagram} alt='instagram' />
-                        </a>
+                  <div className='footer-address'>
+                    <a href={'mailto: kleverboxing@gmail.com'}>kleverboxing@gmail.com</a>
+                  </div>
 
-                        <a href='/#'>
-                            <img width={30} src={icon.media.facebook} alt='facebook' />
+                </Col>
+                <Col xs={6} lg={3}>
+
+                        <a href='https://www.instagram.com/kleverboxing'>
+                            <img width={60} src={icon.media.instagram} alt='instagram' />
+                        </a>
+                        </Col>
+                        <Col xs={6} lg={3}>
+
+                        <a href='https://www.facebook.com/kleverboxinggym'>
+                            <img width={60} src={icon.media.facebook} alt='facebook' />
                         </a>
 
                 </Col>
