@@ -11,10 +11,7 @@ const Footer = () => (
             <Row>
                 <Col xs={12} lg={6}>
                   <div className='footer-address'>
-                    <ul style={{ listStyle: 'none' }}>
-                    
-                      <li><a href={'mailto: kleverboxing@gmail.com'}>kleverboxing@gmail.com</a></li>
-                    </ul>
+                    <a href={'mailto: kleverboxing@gmail.com'}>kleverboxing@gmail.com</a>
                   </div>
 
                 </Col>
