@@ -3,7 +3,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 175vh;
 }
 
 .home-page-title {
@@ -14,4 +14,14 @@
   font-size: 50px;
   font-family: 'Holtwood One SC';
   text-shadow: 15px 15px 20px #000;
+}
+
+.home-page-intro {
+  margin-top: 100vh;
+  height: 25vh;
+  background-color: #FFF;
+}
+
+.home-footer {
+
 }
